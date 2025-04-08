@@ -8,7 +8,7 @@ import './App.css';
 
 const Home = () => (
   <div className="home">
-    <img src="/images/banner.jpg" alt="Mega Print Banner" className="banner" />
+    <img src="https://raw.githubusercontent.com/LakshithaV/mega-print-solutions/refs/heads/master/public/images/banner.jpg" alt="Mega Print Banner" className="banner" />
   </div>
 );
 
