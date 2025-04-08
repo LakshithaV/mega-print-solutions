@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mega-print-solutions/static/css/main.6a222c42.css",
+    "main.js": "/mega-print-solutions/static/js/main.cab8b5eb.js",
+    "static/js/453.90f58357.chunk.js": "/mega-print-solutions/static/js/453.90f58357.chunk.js",
+    "index.html": "/mega-print-solutions/index.html",
+    "main.6a222c42.css.map": "/mega-print-solutions/static/css/main.6a222c42.css.map",
+    "main.cab8b5eb.js.map": "/mega-print-solutions/static/js/main.cab8b5eb.js.map",
+    "453.90f58357.chunk.js.map": "/mega-print-solutions/static/js/453.90f58357.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a222c42.css",
+    "static/js/main.cab8b5eb.js"
+  ]
+}
