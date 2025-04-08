@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo-container">
-      <img src="/images/logo.jpg" alt="Mega Print Logo" className="logo-image" />
+      <img src="https://raw.githubusercontent.com/LakshithaV/mega-print-solutions/refs/heads/master/public/images/logo.jpg" alt="Mega Print Logo" className="logo-image" />
         <span className="brand-name">Mega Print Solutions</span>
       </div>
       <nav className="nav-links">
