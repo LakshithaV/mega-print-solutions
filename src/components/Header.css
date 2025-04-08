@@ -1,0 +1,76 @@
+.header {
+    background-color: #b30000; /* Bold red like logo */
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  
+  .logo-image {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .brand-name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #ffcc00; /* Yellow highlight */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffcc00;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  
+  .active-link {
+    color: #ffcc00;
+    font-weight: bold;
+    border-bottom: 2px solid #ffcc00;
+  }
+  
